@@ -1,0 +1,17 @@
+{
+  "name": "sistema-pedidos",
+  "version": "1.0.0",
+  "description": "Sistema de Pedidos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
+

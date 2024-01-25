@@ -1,0 +1,18 @@
+<!-- views/pedido.ejs -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra Realizada</title>
+</head>
+<body>
+  <h1>Compra Realizada!</h1>
+  <p>Detalhes do Pedido:</p>
+  <ul>
+    <li>Item: <%= pedido.item %></li>
+    <li>Quantidade: <%= pedido.quantidade %></li>
+    <li>Total: R$ <%= pedido.total.toFixed(2) %></li>
+  </ul>
+</body>
+</html>
